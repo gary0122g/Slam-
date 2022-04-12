@@ -1,5 +1,4 @@
 const loginButton = document.getElementById("loginButton")
-const userwallet = document.getElementById('userwallet')
 
 function toggleButton(){
     if (!window.ethereum ){
