@@ -1,10 +1,16 @@
+body {
+    margin:0;
+    padding:0;
+}
+
 .menu {
     display: flex;
-    margin: 0 auto;
+    margin: 0 ;
     width: 600px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -13,6 +19,8 @@
     background-color: #7790da;
     display: inline-block;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .home {
@@ -46,7 +54,7 @@ html {
     height: 700px;
     background: #d6dae6;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -62,7 +70,7 @@ html {
     height: 700px;
     background: grey;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     justify-content: center;
     align-items: center;
 }
@@ -84,32 +92,46 @@ html {
     height: 700px;
     background: #d6dae6;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', sans-serif;
     justify-content: center;
     align-items: center;
 }
 
 .section3 h1{
-    position: relative; top:100px;
-   
+    position: relative; top:100px; left: 150px;  
     width: 800px;
     justify-content: center;
 }
 
 .section3 img{
-    position: relative; right: 130px; bottom: 130px;
+    position: relative; right: 250px; bottom: 130px;
+}
+
+.section4 {
+    display: flex;
+    height: 800px;
+    background: #8f9fd2;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 h1{
+    width: 1000px;
+}
+.section4 img{
+    width: 900px;
 }
 
 #B {
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
 }
 
 #gd {
-
-    width: 500px;
+    width: 400px;
 }
 
 .backtoTop {
