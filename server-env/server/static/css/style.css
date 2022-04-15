@@ -17,16 +17,24 @@ body {
     z-index: 1;
 }
 
+#loginButton{                       
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    outline: none;
+    color:black;
+    background-color:	#1f8b49b1;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace ;               
+}
+
 .banner img{
     width: 200px;
     position: relative;top: 10px;
     
 }
-
-.banner button{
-    position: relative; bottom: ;
-}
-
 
 .header {
     margin: 0;

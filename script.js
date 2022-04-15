@@ -4,7 +4,8 @@ const userWallet = document.getElementById("userWallet")
 function toggleButton(){
     if (!window.ethereum){
         loginButton.innerText = "Metamask is not installed"
-        loginButton.style.backgroundColor = "#FFDC33"
+        loginButton.style.fontSize = "15px"
+        loginButton.style.backgroundColor = "#1f8b49b1"
         return false
     }    
 }
