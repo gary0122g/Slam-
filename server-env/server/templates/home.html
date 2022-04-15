@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8">
+        <meta name="keyword" content="Slime :NFT,Rarity,Artion,Andre Cronje,Rarity,FTM,Fantom">
+        <meta name="description" content="Slime: NFT's on blockchain,pet system intergreted with Rarity">
+        <meta name="author" content="Slime.Rarity">
+        <title>Slime: NFT's on blockchain,pet system intergreted with Rarity</title>        
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+        
+    <body>
+        <div class="header">
+            <div class="banner">
+                <img src="{{ url_for('static', filename='images/razerbanner.png')}}" alt="">
+                <div class="mint" >
+                    <button id="loginButton" style="
+                        display: inline-block;
+                        font-size: 24px;
+                        cursor: pointer;
+                        text-align: center;
+                        text-decoration: none;
+                        outline: none;
+                        color:black;
+                        background-color:	#1f8b49b1;
+                        border: none;
+                        border-radius: 15px;
+                        font-family: 'Courier New', Courier, monospace ;
+                      ">Connect</button>   
+                    <div id="userWallet"></div>                 
+                </div>
+
+                <a href="https://www.instagram.com/"><img style="width: 70px;" src="{{ url_for('static', filename='images/instagram.png')}}" border="0"></a>                
+            </div>            
+
+            <div class="menupic">
+                <center><img src="{{ url_for('static', filename='images/PhotoRoom.png')}}"  alt=""></center>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="{{url_for('static', filename='js/script.js')}}"></script>
+
+        <a href="#" id ="backtoTop"class="backtoTop">
+            <img  src="{{ url_for('static', filename='images/back-to-top-icon-png-8.jpg')}}" style="position: fixed; left: 2400px; top: 1150px; " alt="" width="50px">
+        </a> 
+       
+
+        <div id="section1" class="section1" >
+            <h1 id="B">WHAT IS SLAM NFT? 
+                <p id="B">               
+                    A FREE-TO-MINT D&D Game in the Fantom Network                
+                    It's is a game created by Andre Cronje where                 
+                    you can send your summoners to adventure             
+                    and aquire Gold and XP. A FREE-TO-MINT D&D Game in the Fantom Network                
+                    It's is a game created by Andre Cronje where                 
+                    you can send your summoners to adventure             
+                    and aquire Gold and XP. 
+                </p>
+            </h1>
+            <img src="{{ url_for('static', filename='images/S__43638803_ccexpress.png')}}" width="500px" height="400px" alt="">  
+        </div>
+
+        <div id="section2" class="section2">
+            <img src="{{ url_for('static', filename='images/S__43638801_ccexpress.png')}}" alt="">
+            <h1 id="B" >How Do I Get Items?        
+                <p> Items come from loot crates you can purchase from the Cool Cats Marketplace. 
+                    You can purchase loot crates with $MILK.
+                    You can earn $MILK by doing daily quests with your Cool Pet. 
+                    If you’re a Cool Cat holder, you can also earn $MILK each day just by claiming it.
+                </p>       
+            </h1>                
+        </div>
+
+        <div id="section3" class="section3" >
+            <h1 id="B">The Four Style...For now At least!
+                
+            </h1>
+            <img src="{{ url_for('static', filename='images/s_ccexpress(2).png')}}"  alt="">
+            
+        </div>
+        
+        <div id="section4" class="section4">
+            <img src="{{ url_for('static', filename='images/My project.png')}}" alt="">
+        </div>
+
+    </body>
+</html>
