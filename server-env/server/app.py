@@ -10,4 +10,8 @@ def index():
 def azuki():
     return render_template('azuki.html')
 
+@app.route("/website2")
+def mysite():
+    return render_template('mysite.html')
+    
 app.run(host='0.0.0.0',port=8080)
