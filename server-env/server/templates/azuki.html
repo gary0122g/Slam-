@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", initail-scale="1.0">        
+        <meta name="description" content="">
+        <title>Azuki</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="wbastyle.css" type="text/css">        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=VT323&display=swap" rel="stylesheet">        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="navigate-container">
+            <img class="little-icon" src="{{ url_for('static', filename='images/azuki/Azuki Logo White.svg')}}" alt="">
+            <ul class="item-container">
+                <li class="navi-item">GALLERY</li>
+                <li class="navi-item">THE GARDEN</li>
+                <li class="navi-item">CARRERS</li>
+                <li class="navi-item">MANIFESTO</li>
+                <li class="navi-item">MINDGAP</li>
+                <li class="navi-item">SHOP</li>
+                <li class="navi-item"><a href="https://twitter.com/home"><img style="width: 20px;" class="icon" src="{{ url_for('static', filename='images/twitter.png')}}" alt=""></a></li>
+                <li class="navi-item"><a href="https://www.instagram.com/"><img style="width: 20px;" class="icon" src="{{ url_for('static', filename='images/azuki/ig.png')}}" alt=""></a></li>
+                <li class="navi-item"><a href="https://github.com/gary0122g"><img style="width: 20px;" class="icon" src=".{{ url_for('static', filename='images/azuki/github')}}" alt=""></a></li>
+                <li class="navi-item"><a href=""><img style="width: 20px;" class="icon" src="{{ url_for('static', filename='images/azuki/discord')}}" alt=""></a></li>
+                <div class="navi-item">
+                    <button onclick="dis()" class="lg_bro_before">LANGUAGE
+                        <button id="lg_bro">ENGLISH</button>
+                        <button id="lg_bro">繁體中文</button>                        
+                    </button>
+                </div>
+                
+                <!-- <button class="navi-item">
+                    <option class="op" value="">LANGUAGE</option>
+                    <option class="op" value="">ENGLISH</option>
+                    <option class="op" value="">繁體中文</option>
+                </div> -->
+            </ul>                                            
+        </div>
+
+        <div>
+            <video autoplay muted loop class="video" src="./images/beanzwuzhere.mp4"></video>
+        </div>
+        <div class="A-container">
+            <div class="A-container2">            
+                <img src="{{ url_for('static', filename='images/azuki/bean_pod_FINAL2.gif')}}" alt="">
+                <p class="a">SOMETHING IS  COMING <br>BEANZ</p>
+                <a class="opensea">
+                    <span class="opensea-text" >OPENSEA</span>
+                </a>
+            </div>
+            
+        </div>
+        
+
+
+        
+    </body>
+
+
+
+
+</html>

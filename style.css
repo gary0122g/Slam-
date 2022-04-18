@@ -165,19 +165,6 @@ html {
 
 @media screen and (min-width: 320px) and (max-width:1360px) { 
 
-    .header {
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-        display: inline-block;
-        width: 100%;
-        height: 400px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-
     .section1{
         height: 500px;
     }

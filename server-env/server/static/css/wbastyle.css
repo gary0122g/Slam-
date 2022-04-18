@@ -1,0 +1,112 @@
+html{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    margin: 0 auto;
+    padding: 2px 5px;
+}
+
+.navigate-container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+    justify-content: end;
+    z-index: 1;
+}
+
+.navi-item{
+    list-style-type: none; 
+    margin: 10px;
+    font-family: 'VT323', monospace; 
+    font-size: 12px;
+}
+
+.lg_bro_before:hover{
+    color: white;
+}
+
+.little-icon{
+    width: 56px;
+    height: 10px;
+    position:fixed; left: 13%; top: 20px;
+    background-color: rgb(207, 51, 51);
+    border-radius: 5px;
+    padding: 8px
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 20px;    
+}
+
+.video{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.A-container{  
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%; 
+    z-index: 2;
+}
+
+.A-container2 {
+    align-items: center;
+    border-radius: 5px;
+    position:absolute; right: 20px; bottom: 20px;
+    display: flex;
+    flex: wrap;
+    margin: 0px;
+    font-family: 'VT323', monospace; 
+    background-color: #bc3647;
+    width: 30em;
+    height: 60px;
+}
+
+.A-container img{
+    position: relative; 
+    margin: 5px;
+    background-color:  #bc3647;
+    width: 10%;
+}
+
+.a{
+    font-size: 12px;
+    font-family: 'Akshar', sans-serif;
+    color: rgb(171, 164, 164) ;
+    width: 30%;
+}
+
+.opensea{
+    display: flex;
+    position: relative;left: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 25%;
+    justify-self: end;
+    align-self: center;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    font-size: 25px;
+    font:bold;
+    box-shadow:3px 3px black ;
+}
+
+.opensea-text{
+    font-family: 'Akshar', sans-serif;
+}
