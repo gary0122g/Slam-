@@ -10,5 +10,4 @@ def index():
 def azuki():
     return render_template('azuki.html')
 
-
 app.run()
