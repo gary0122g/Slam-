@@ -6,7 +6,7 @@
         <meta name="description" content="">  
         <title>Mysite</title>  
         <script src="script.js"></script>
-        <link rel="stylesheet" href="style1.css" type="text/css"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mysite.css')}}" type="text/css"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Akshar&family=Open+Sans&family=PT+Mono&family=VT323&display=swap" rel="stylesheet"> 
@@ -16,7 +16,7 @@
         <div class="a">
             <div class="item">                
                 <div class="GaryWebsite">
-                    <img class="spaceman" src="./iconfinder-satellite-2927567_112150.png" alt="">
+                    <img class="spaceman" src="{{ url_for('static', filename='images/mysite/little.png')}}" alt="">
                     <h1>Gary<br>Website
                         <p>Gary's website only for educational purposes, take a look if you want!</p>  
                     </h1>                                                                                                     

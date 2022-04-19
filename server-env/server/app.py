@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template('home.html')
+    return render_template('mysite.html')
 
 @app.route("/website1")
 def azuki():
@@ -12,6 +12,6 @@ def azuki():
 
 @app.route("/website2")
 def mysite():
-    return render_template('mysite.html')
+    return render_template('home.html')
     
 app.run(host='0.0.0.0',port=8080)
