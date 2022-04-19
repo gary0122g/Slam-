@@ -52,7 +52,7 @@ table {
     background-color: rgb(79, 188, 218);
     align-items: center;
     justify-content: center;
-	background-image: url("{{ url_for('static', filename='images/mysite/a.png')}}") ;
+	background-image: url("./iconfinder-astronaut-2927562_112148.png") ;
 	background-repeat: no-repeat;
 	background-position-x:200px ;
 	background-attachment: fixed;	
@@ -65,8 +65,8 @@ table {
 	flex-direction: column;
 	overflow: hidden;
 	position: relative;
-    width: 45em;
-    height: 30em;
+    width: 60em;
+    height: 40em;
     border: black 3px solid;   
     background-color: #ffffff; 
 
@@ -80,7 +80,7 @@ table {
 	height: 400px;
 	width: 400px;
 	overflow: hidden;
-	font-size: 60px;
+	font-size: 90px;
 	font-weight: bold;
 	font-family: 'PT Mono', monospace;
 	letter-spacing:0;
@@ -91,33 +91,52 @@ table {
 .GaryWebsite p {
 	width: 220px;
 	height: 40px;
-	font-size: 10px;
+	font-size: 12px;
 	color: rgba(130, 128, 128, 0.848);
 	margin-top: 10px;
 	line-height: 12px;
+	word-spacing: 3px;
 }
 
 
 .part2{
 	display: flex;
-	width: 60%;
+	width: 70%;
 	height: 25%;
 	margin: 20px;
 }
 
 .part2 h1{
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
-	letter-spacing: 0;
+	height: 50px;
 	margin: 10px;
+	word-spacing: 3px;
 }
 
+.part2 a{
+	font-size: 20px;
+	position: relative;top: 10px;
+	text-decoration:none;
+}
+
+.part2 .blue{
+	color: rgb(43, 237, 237);
+}
+
+.part2 .green{
+	color: rgb(59, 228, 171);
+}
+
+.part2 .pink{
+	color: rgb(226, 108, 226);
+}
 .part2 p{
-	font-size: 10px;
+	font-size: 12px;
 	color: rgba(130, 128, 128, 0.848);
 	margin-top:10px;
 	font-family: 'Anek Gujarati', sans-serif;
-	line-height: 12px;
+	line-height: 14px;
 	letter-spacing: 0;
 }
 
@@ -130,27 +149,98 @@ table {
 .part4{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
 	width: 30%;
 	height: 50%;
-	position: absolute;right: 00%;top:50%;
+	position: absolute;right: 0%;top:65%;
 	text-align: right;
 	font-family: 'Roboto Mono', monospace;
 }
 
-.part4 h1{
-	font-size: 20px;
+.part4_ul span{
+	font-size: 25px;
 	font-weight: bold;
-	letter-spacing: 0;
-	margin: 20px;
 }
 
-.part4 li{
-	line-height: 30px;
-	margin-top: 0;
+.part4_ul{
+	width: 50%;
+	height: 32%;
+	position: absolute; left: 45%;
+
+}
+
+.part4_ul ul{
+	margin-top: 20px;
 	height: 17px;
 	font-size: 13px;
-	font-weight: lighter;
+	font-weight: lighter;	
+}
+
+.ul_b{
+	position: relative; top: 10px;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:1020px) {
+	.item{
+		width: 45em;
+		height: 59em;
+		
+	}
+	.GaryWebsite{
+		flex:2
+	}
+
+	.GaryWebsite p{
+		font-size: 15px;
+		line-height: 20px;
+		width: 80%;
+	}
+	.GaryWebsite h1{
+		font-size: 90px;
+	}
+
+	.part2{
+		justify-content: start;
+		width: 90%;
+		flex: 1;
+	}
+	
+	.part2 h1{
+		font-size: 24px;
+	}
+
+	.part2 p{
+		font-size: 15px;
+		word-spacing:3px;
+		line-height: 15px;
+	}
+
+	.part4{
+		flex-direction: column;
+		position: static;
+		text-align: left;
+		flex: 1;
+		width: 70%;
+		position: relative;top: 5%;
+	}
+
+	.part4_ul{
+		position: relative; left: 30px;
+		display: flex;
+	}
+
 	
 
+	.part4_ul li{
+		margin-top: 5px;
+	}
+
+	.part4_ul .ul_b{
+		position: relative; top: 25px;
+	}
+	
+
+
+	
 }
